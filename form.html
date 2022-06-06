@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+    <link rel="shortcut icon" href="images\creative-colorful-infinity-logo-design-symbol-vector-25619443.jpg">
+    <style>
+        body{
+            background-color:antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Login info</legend>
+        <label for = "email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email"><br><br/>
+        <label for="password">Password:</label>
+        <input type="password" name="pass" id="pass"><br/>
+        <button type="submit">Submit</button>
+    </fieldset>
+    <label for="fname"></label>First name:</label>
+    <input type="text" value="pankaj"  readonly id="fname" ><br><br/>
+    <label for="fname"></label>First name:</label>
+    <input type="text" value="pankaj"  disabled id="fname" ><br><br/>
+    <label for = "name">Name:</label>
+    <input type = "text" name="name" size="30" id="name" placeholder="Enter Name"><br><br/>
+    <label for = "mobile">Mobile:</label>
+    <input type = "tel" name="mobile" size="30" id="mobile" placeholder="Enter Mobile"><br><br/>
+    <label for="pin"></label>Pin:</label>
+    <input type="text"  name = "pin" maxlength="6" id="pin" ><br><br/>
+    <label for = "DOB">Date-Of-Birth</label>
+    <input type = "date" min="29-05-2022" max="30-12-2021" value="date"><br><br/>
+    <label for = "Gender">Gender:</label>
+    <input type ="radio" name="gender" id="gender" value="male">Male
+    <input type ="radio" name="gender" id="gender" value="female">Female
+    <input type ="radio" name="gender" id="gender" value="Other">Other<br><br/>
+    <label for = "Hobby">Hobby:</label>
+    <input type ="checkbox" name="hobby" id="hobby" value="Cricket">Cricket
+    <input type ="checkbox" name="hobby" id="hobby" value="Football">Football
+    <input type ="checkbox" name="hobby" id="hobby" value="Food/Snackes">Food/Snackes
+    <input type ="checkbox" name="hobby" id="hobby" value="Cycling">Cycling
+    <input type ="checkbox" name="hobby" id="hobby" value="Singing">Singing
+    <input type ="checkbox" name="hobby" id="Dancing">Dancing<br><br/>
+    <label for="counters">select country:</label>
+    <select name ="counters" id="counters">
+        <option value="india">India</option>
+        <option value="Uk">Uk</option>
+        <option value = "USA">USA</option>
+        <option value = "Canada">Canada</option>
+        <option value="Russia">Russia</option>
+        <option value="France">France</option>
+    </select><br><br/>
+    <label for="quantity"></label>Quantity- Number between 0-6:</label>
+    <input type="number" min="0" max="6"   id="num" ><br><br/>
+     <lable for="address">Address</lable>
+     <textarea rows="4" cols="50"></textarea><br><br/>
+      <lable for = "file">select file:</lable>
+      <input type="file"  name="upload" multiple id="file"><br><br/>
+      <input type="submit" value="Upload" id="upload">
+      <input type="reset" value="Clear" id = "clear">
+       
+        </form>
+        <hr></hr>
+        <marquee width="100%" behavior="scroll" scrollamount="20" bgcolor="yellow">Hyperloop registration portal</marquee>
+        <marquee width="100%" behavior="alternate" scrollamount="50" bgcolor="green">Hyperloop registration portal</marquee>
+        <marquee width="100%" speed="26" direction="right" scrollamount="20" bgcolor="skyblue">Hyperloop registration portal</marquee>
+</body>
+</html>
